@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "yarn tinacms server:start -c \"next dev\"",
+    "build": "yarn tinacms server:start -c \"next build\"",
+    "start": "yarn tinacms server:start -c \"next start\""
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
